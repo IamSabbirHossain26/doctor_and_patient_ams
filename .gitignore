@@ -1,0 +1,29 @@
+# Environment
+.env
+
+# Writable directories
+writable/logs/*
+writable/cache/*
+writable/session/*
+writable/debugbar/*
+writable/uploads/*
+
+# Keep index.html placeholders
+!writable/logs/index.html
+!writable/cache/index.html
+!writable/session/index.html
+!writable/uploads/index.html
+!writable/debugbar/index.html
+
+# Composer
+vendor/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
